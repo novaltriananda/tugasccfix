@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 # Fungsi untuk load model
 @st.cache_resource
 def load_model_keras():
-    model = load_model("model.pkl")  # Memuat model Keras
+    model = load_model("model.keras")  # Memuat model Keras
     return model
 
 # Fungsi untuk load scaler
